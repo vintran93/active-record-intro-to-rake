@@ -9,7 +9,7 @@
 ## What is Rake?
 
 Rake is a tool that is available to us in Ruby that allows us to automate
-certain jobs––anything from execute SQL to `puts`-ing out a friendly message to
+certain jobs — anything from execute SQL to `puts`-ing out a friendly message to
 the terminal.
 
 Rake allows us to define something called "Rake tasks" that execute these jobs.
@@ -265,14 +265,14 @@ rake console
 
 This should bring up the following in your terminal:
 
-```bash
+```txt
 [1] pry(main)>
 ```
 
 Let's check to see that we did in fact successfully migrate and seed our
 database:
 
-```bash
+```txt
 [1] pry(main)> Student.all
 => [[1, "Melissa", "10th"],
  [2, "April", "10th"],
@@ -284,5 +284,3 @@ database:
 We did it!
 
 [jim weirich]: https://en.wikipedia.org/wiki/Jim_Weirich
-
-
